@@ -1,0 +1,59 @@
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #241773;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #9E7C0C;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.photo-grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.grid-item {
+    width: 300px !important;  
+    height: auto !important;
+    display: inline-block !important;
+    border: 3px solid purple;
+}
+
+.grid-item:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    transform: scale(1.02);
+    transition: 0.3s;
+} 
